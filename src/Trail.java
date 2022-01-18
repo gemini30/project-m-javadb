@@ -33,10 +33,15 @@ public class Trail extends javax.swing.JFrame {
 
         jLabel1.setText(" ghjdgw");
 
-        Submit.setText("Click Me!");
+        Submit.setText("Click button");
         Submit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 SubmitMouseClicked(evt);
+            }
+        });
+        Submit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SubmitActionPerformed(evt);
             }
         });
 
@@ -52,7 +57,7 @@ public class Trail extends javax.swing.JFrame {
                     .addComponent(Submit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel1)
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(137, Short.MAX_VALUE))
+                .addContainerGap(121, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -73,6 +78,10 @@ public class Trail extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.out.println("Hello World");
     }//GEN-LAST:event_SubmitMouseClicked
+
+    private void SubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SubmitActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_SubmitActionPerformed
 
     /**
      * @param args the command line arguments
