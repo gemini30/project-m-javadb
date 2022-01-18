@@ -31,7 +31,7 @@ public class Trail extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Hello World");
+        jLabel1.setText(" ghjdgw");
 
         Submit.setText("Click Me!");
         Submit.addMouseListener(new java.awt.event.MouseAdapter() {
