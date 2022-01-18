@@ -51,7 +51,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Hello World"/>
+        <Property name="text" type="java.lang.String" value=" ghjdgw"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="Submit">
